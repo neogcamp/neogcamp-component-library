@@ -3,19 +3,20 @@
 
 
 :root {
-    --primary: #8B5CF6
-    --gray: #F3F4F6
+    --primary: #7C3AED;
+    --gray: #F3F4F6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    /* margin: 0px; */
 }
 
 .text-sm {
     font-size: 0.8rem;
 }
 
+/** containers **/
 .container-fluid {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -26,4 +27,26 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     max-width: 600px;
+}
+
+/** links **/
+
+.primary-link {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
