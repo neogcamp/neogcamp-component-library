@@ -100,3 +100,17 @@ hr {
     margin: auto;
     display: block;
 }
+
+/** section **/
+
+.section {
+    padding: 2rem 0rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--gray);
+}
