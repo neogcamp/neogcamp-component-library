@@ -50,3 +50,35 @@ body {
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
+
+/** nav **/
+.navigation {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand {
+    font-weight: bold;
+    
+}
+
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white
+}
+
+.navigation .active {
+    font-weight: bold;
+}
