@@ -9,8 +9,21 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .text-sm {
     font-size: 0.8rem;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
 }
