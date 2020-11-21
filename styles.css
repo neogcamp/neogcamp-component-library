@@ -114,3 +114,17 @@ hr {
 .ow {
     background-color: var(--gray);
 }
+
+
+/** lists **/
+
+.unordered {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
