@@ -5,11 +5,16 @@
 :root {
     --primary: #7C3AED;
     --gray: #F3F4F6;
+    --dark-gray:#6B7280;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     /* margin: 0px; */
+}
+
+hr {
+    margin: 2rem 0;;
 }
 
 .text-sm {
@@ -81,4 +86,17 @@ body {
 
 .navigation .active {
     font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+    color: var(--dark-gray);
+    display: block;
+}
+
+.hero img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
 }
